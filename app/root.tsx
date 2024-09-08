@@ -1,5 +1,6 @@
 import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "@remix-run/react";
 import "./tailwind.css";
+import React from "react";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
