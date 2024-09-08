@@ -88,9 +88,5 @@
       "attributePosition": "auto"
     }
   },
-  "overrides": [
-    { "include": ["**/*.{js,jsx,ts,tsx}"] },
-    { "include": ["**/*.{ts,tsx}"] },
-    { "include": [".eslintrc.cjs"] }
-  ]
+  "overrides": [{ "include": ["**/*.{js,jsx,ts,tsx}"] }, { "include": ["**/*.{ts,tsx}"] }]
 }
